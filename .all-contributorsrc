@@ -1,0 +1,29 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "dantusaikamal",
+      "name": "Sai kamal",
+      "avatar_url": "https://raw.githubusercontent.com/Dantusaikamal/Speech-To-Text/master/image/kamal.jpeg",
+      "profile": "https://github.com/Dantusaikamal",
+      "contributions": [
+        "code",
+        "doc",
+        "design",
+        "maintenance",
+        "ideas"
+      ]
+
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "Priyankas-Pizzeria",
+  "projectOwner": "Dantusaikamal",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
