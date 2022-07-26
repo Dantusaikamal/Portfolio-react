@@ -11,9 +11,9 @@ const greeting = {
   logo_name: "Dantusaikamal",
   nickname: "Sai Kamal",
   subTitle:
-    "Hi, I'm Sai kamal, a Full Stack Developer 🚀 from Hyderabad, India. Currently a sophomore student contributing to various open-sourced projects and working on quite a few personal projects.",
+    "Hi, I'm Sai kamal, a Full Stack Developer 🚀 from Hyderabad, India. I'm currently an undergraduate student contributing to various open-sourced projects and working on quite a few personal projects.",
   resumeLink:
-    "https://drive.google.com/file/d/1u35utHrhX2EzVLsltyKgFVA3j17Y9R4p/view?usp=sharing",
+    "https://drive.google.com/file/d/1A_ou2CMzGRgLUwI5jz2onjcF_GsKHYtG/view?usp=sharing",
   portfolio_repository: "https://github.com/Dantusaikamal/Portfolio-react",
 };
 
@@ -276,31 +276,31 @@ const skills = {
 // Education Page
 const competitiveSites = {
   competitiveSites: [
-    {
-      siteName: "HackerRank",
-      iconifyClassname: "simple-icons:hackerrank",
-      style: {
-        color: "#2EC866",
-      },
-      profileLink: "https://www.hackerrank.com/dantusaikamal",
-    },
-    {
-      siteName: "Codechef",
-      iconifyClassname: "simple-icons:codechef",
-      style: {
-        color: "#5B4638",
-      },
-      profileLink: "https://www.codechef.com/users/dantusaikamal",
-    },
+    // {
+    //   siteName: "HackerRank",
+    //   iconifyClassname: "simple-icons:hackerrank",
+    //   style: {
+    //     color: "#2EC866",
+    //   },
+    //   profileLink: "https://www.hackerrank.com/dantusaikamal",
+    // },
+    // {
+    //   siteName: "Codechef",
+    //   iconifyClassname: "simple-icons:codechef",
+    //   style: {
+    //     color: "#5B4638",
+    //   },
+    //   profileLink: "https://www.codechef.com/users/dantusaikamal",
+    // },
     
-    {
-      siteName: "Kaggle",
-      iconifyClassname: "simple-icons:kaggle",
-      style: {
-        color: "#20BEFF",
-      },
-      profileLink: "https://www.kaggle.com/dantusaikamal",
-    },
+    // {
+    //   siteName: "Kaggle",
+    //   iconifyClassname: "simple-icons:kaggle",
+    //   style: {
+    //     color: "#20BEFF",
+    //   },
+    //   profileLink: "https://www.kaggle.com/dantusaikamal",
+    // },
   ],
 };
 
@@ -311,11 +311,13 @@ const degrees = {
       subtitle: "B.Tech. in Computer Science Engineering",
       logo_path: "biet_logo.png",
       alt_name: "BIET HYD",
-      duration: "2019 - Present",
+      duration: "2019 - 2023 (Pursuing)",
       descriptions: [
-        "⚡ I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI etc.",
+        "⚡ I took various software engineering courses like Machine Learning, Data Structures, Algorithms, Computer Networks, DBMS, OS, CA, AI etc.",
         "⚡ Apart from this, I have done courses on Deep Learning, Data Science, Cloud Computing and Full Stack Development.",
+        "⚡ Published more than 5 research papers in national and international repositories on Machine learning, Neural Networks, GANs and other technologies. ",
         "⚡ I secured first place in Hackathon with over 100 participants for coming up with the idea of Agrodrone. Though agrodrones already exist, our model is more affordable and efficient.",
+        "⚡ I also won first place in Start-up and business model competition conducted by Institute Innovation Council, an initiative of Ministry of Education, India.",
       ],
       website_link: "http://biet.ac.in",
     },
@@ -451,14 +453,34 @@ const experience = {
       title: "Internships",
       experiences: [
         {
+          title: "Lead, Google DSC",
+          company: "Google",
+          company_url: "https://about.google/",
+          logo_path: "google_logo.png",
+          duration: "August 2021 - July 2022",
+          location: "Hyderabad, Telangana",
+          description:
+            "• Conducted hands-on workshops and sessions on Web Development, Docker, Kotlin, Kubernetes, Cloud, Git. \n\
+             • Part of 250 students from India that were selected as Google Developer Students Clubs lead in 2021. \n\
+             • Established a technical community in the college and trained multiple people to lead the community. \n\
+             • Built various open-sourced projects and encouraged various students to contribute to the projects.",
+          color: "#4285F4",
+        },
+
+        {
           title: "Full stack developer Intern",
           company: "HFIL Technologies Pvt Ltd.",
           company_url: "https://www.hfilabs.com/",
           logo_path: "hfil_logo.png",
-          duration: "November 2020 - Present",
+          duration: "November 2020 - July 2021",
           location: "Hyderabad, Telangana",
-          description:
-            "I have worked on project of designing and developing a Web application and a mobile application. I'm designing wireframes using Figma and I'm developing the applications using ReactJS, React Native, Firebase.",
+          description: [
+            "• Led the Development team of a Start-up that focuses on Electric vehicle charging stations and smart energy meters.", 
+            "• Built cross platform scalable mobile applications using flutter and deployed the data pipelines on AWS EC2, and Azure instances.", 
+            "• Designed UI wireframes for the applications using Figma and also documentation for the applications.", 
+            "• Effectively managed projects from start to finish.",
+            "• Improved the response time of applications by over 800 milliseconds, using advanced frameworks, data structures, caching mechanismand optimized code in order to reduce the number of queries to the database."
+          ],
           color: "#ee3c26",
         },
         {
@@ -482,73 +504,40 @@ const experience = {
           duration: "July 2020 - August 2020",
           location: "Work From Home",
           description:
-            "Developed a Debian Distro, an Operating System based on Linux kernel. The Distro comes pre-installed with all the softwares and Engineer would require.",
+            "Built an Operating System for Engineering colleges in the state of Telangana that comes pre-installed with all the software an Engineer of any majors would require. The Operating System is based on Linux kernel and is made open-sourced in order to encourage other students contribute to the Operating System and learn more about Operating Systems.",
           color: "#0071C5",
         },
 
       ],
     },
-    // {
-    //   title: "Volunteerships",
-    //   experiences: [
-    //     {
-    //       title: "Google Explore ML Facilitator",
-    //       company: "Google",
-    //       company_url: "https://about.google/",
-    //       logo_path: "google_logo.png",
-    //       duration: "June 2019 - April 2020",
-    //       location: "Hyderabad, Telangana",
-    //       description:
-    //         "Explore Machine Learning (ML) is a Google-sponsored program for university students to get started with Machine Learning. The curriculum offers 3 tracks of ML Content (Beginner, Intermediate, Advanced) and relies on university student facilitators to train other students on campus and to build opensource projects under this program.",
-    //       color: "#4285F4",
-    //     },
-    //     {
-    //       title: "Microsoft Student Partner",
-    //       company: "Microsoft",
-    //       company_url: "https://www.microsoft.com/",
-    //       logo_path: "microsoft_logo.png",
-    //       duration: "Aug 2019 - May 2020",
-    //       location: "Hyderabad, Telangana",
-    //       description:
-    //         "Microsoft Student Partner is a program for university students to lead the awareness and use of Cloud especially Azure tools in the development of their projects and startups. Under this program, I have organised hands on workshops and seminars to teach Cloud Computing concepts to students.",
-    //       color: "#D83B01",
-    //     },
-    //     {
-    //       title: "Mozilla Campus Captain",
-    //       company: "Mozilla",
-    //       company_url: "https://www.mozilla.org/",
-    //       logo_path: "mozilla_logo.png",
-    //       duration: "Oct 2019 - May 2020",
-    //       location: "Kurnool, Andhra Pradesh",
-    //       description:
-    //         "My responsibility for this program was to create opensource environment in college and in the city. We have organised multiple hackathons on the problems collected by ordinary people from Kurnool city. We have build opensource community of our own college. The community is available at dsc_iiitdmk on github.",
-    //       color: "#000000",
-    //     },
-    //     {
-    //       title: "Developer Students Club Member",
-    //       company: "DSC BIET",
-    //       company_url:
-    //         "",
-    //       logo_path: "dsc_logo.png",
-    //       duration: "Jan 2020 - Present",
-    //       location: "Kurnool, Andhra Pradesh",
-    //       description:
-    //         "We have well established developer club in college which is directly associated with Google Developers. We have developed many interdisciplinary projects under the membership of this club. We have organised workshops and activities on Android Application Development, Flutter and React JS.",
-    //       color: "#0C9D58",
-    //     },
-    //     {
-    //       title: "Developer Program Member",
-    //       company: "Github",
-    //       company_url: "https://github.com/",
-    //       logo_path: "github_logo.png",
-    //       duration: "July 2019 - PRESENT",
-    //       location: "Work From Home",
-    //       description:
-    //         "I am actively contributing to many opensource projects. I have contributed to projects of organisations like Tensorflow, Uber, Facebook, Google, Scikit-learn, Kiwix, Sympy, Python, NVLabs, Fossasia, Netrack, Keras etc. These contributions include bug fixes, feature requests and formulating peoper documentation for project.",
-    //       color: "#181717",
-    //     },
-    //   ],
-    // },
+    {
+      title: "More",
+      experiences: [
+        {
+          title: "IBM Z Student",
+          company: "IBM",
+          company_url: "https://www.ibm.com/",
+          logo_path: "ibm_logo.png",
+          duration: "Aug 2019 - May 2020",
+          location: "Hyderabad, Telangana",
+          description:
+            "IBM Z Student is a program for university students to lead the awareness and use of IBM Cloud and Mainframe tools in the development of their projects and startups. Under this program, I have organised hands on workshops and seminars to teach Cloud Computing and Mainframe concepts to students.",
+          color: "#D83B01",
+        },
+        {
+          title: "Mozilla Campus Lead",
+          company: "Mozilla",
+          company_url: "https://www.mozilla.org/",
+          logo_path: "mozilla_logo.png",
+          duration: "Oct 2019 - present",
+          location: "Hyderabad, Telangana",
+          description:
+            "My responsibility for this program was to create opensource environment in college and in the city. We have organised multiple hackathons on the problems collected by ordinary people from Hyderabad city. We have built opensource community of our own college.",
+          color: "#000000",
+        },
+        
+      ],
+    },
   ],
 };
 
@@ -564,7 +553,7 @@ const projectsHeader = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "animated_ashutosh.png",
+    profile_image_path: "kamal1.jpg",
     description:
       "I am available on almost every social media. You can message me, I will try to reply within 24 hours. I can help you with ML, AI, React, Android, Cloud and Opensource Development.",
   },

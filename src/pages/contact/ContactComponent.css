@@ -9,10 +9,12 @@
 
 .contact-heading-div {
   display: flex;
+
 }
 
 .blog-heading-div {
   display: flex;
+  margin-top: 50px;
 }
 
 .address-heading-div {
@@ -26,6 +28,7 @@
 
 .contact-heading-div > * {
   flex: 1;
+  margin-left: 50px;
 }
 
 .address-heading-div > * {
@@ -35,6 +38,7 @@
 .contact-heading-img-div {
   align-items: center;
   justify-content: center;
+  max-width: 30%;
 }
 
 .blog-heading-img-div {
